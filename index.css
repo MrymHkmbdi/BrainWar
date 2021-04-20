@@ -1,0 +1,261 @@
+
+body
+{
+    background-color:rgb(97, 52, 126);
+}
+
+.wrapper
+{
+    margin-top: 1.6%;
+    margin-bottom: 1.6%;
+    position: relative;
+    left: 23px;
+    width: 760px;
+    margin-left: 21%;
+}
+
+.score, .highScore
+{
+    display: inline-block;
+    background-color: rgb(74, 20, 103);
+    font-weight: bold;
+    color: #fff;
+    padding: 3%;
+    border-radius: 10%; 
+    width: 150px; 
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.score
+{
+  margin-left: 1%;
+}
+
+.btn
+{
+  margin-left: 15%;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.highScore
+{
+  margin-left: 13%;
+}
+
+
+.btn, .btn:hover, .btn:active
+{
+    background-color: rgb(95, 121, 241);
+    border-color: rgb(95, 121, 241);
+    height: 50px;
+}
+
+.row
+{
+    text-align: center;
+    margin: 0 22.9%;
+    position: relative;
+    left: 5px;
+    width: 645px;
+}
+
+.hidden
+{
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.GameoverText
+{
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-left: 27%;
+    opacity: 1;
+    position: absolute;
+}
+  
+.boxContainer
+{
+    padding: 0%;
+    margin: 0%;
+    border: solid 2px black;
+}
+
+.gameBox
+{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(74, 20, 103);
+    display: inline-block;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.gameBox2 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(95, 121, 241);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox4 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(223, 63, 43);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox8 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(255, 0, 108);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox16 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(0, 199, 180);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox32 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(200, 0, 86);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox64 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(255, 163, 155);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox128 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(171, 0, 90);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox256 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(255, 180, 35);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox512 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(203, 193, 180);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox1024 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(255, 55, 0);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .gameBox2048 {
+    height: 150px;
+    width: 150px;
+    color: rgb(248, 246, 242);
+    border-radius: 10%;
+    background-color: rgb(125, 0, 85);
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .boxText {
+    margin-top: 30%;
+  }
+  
+  
+.two
+{
+  color: rgb(223, 63, 43);
+  text-align: center;
+}
+
+.zero
+{
+  color: rgb(64, 173, 90);
+  text-align: center;
+}
+
+.four
+{
+  color: rgb(242, 193, 22);
+  text-align: center;
+}
+
+.eight
+{
+  color: rgb(85, 113, 241);
+  text-align: center;
+}
+
+.heading
+{
+  text-align: center;
+  margin-left: 5%;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.note 
+{
+  color: white;
+  margin-left: 4%;
+  font-family: 'Architects Daughter', cursive;
+
+}
