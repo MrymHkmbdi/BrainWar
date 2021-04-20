@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>2048</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+
+<body onload="startGame()">
+
+  <div class="container">
+
+    <h1 class="heading"><span class="two">2</span><span class="zero">0</span><span class="four">4</span><span class="eight">8</span></h1>
+
+    <div class="wrapper">
+      <span class="score">
+        <h5>Score:0</h5>
+      </span>
+      <button type="button" class="btn btn-danger">New Game</button>
+      <span class="highScore">
+        <h5>HighScore:0</h5>
+      </span>
+    </div>
+
+    <p class="note" style="text-align:center;">
+       use WASD to play the game. Enjoy!
+    </p>
+
+    <div class="row" id="row">
+
+      <div class="gameBox" id="btn00">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn01">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn02">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn03">
+        <h1 class="boxText"></h1>
+      </div>
+
+    </div>
+
+
+    <p class="hidden" id="hidden">Game Over</p>
+
+
+    <div class="row" id="row">
+
+      <div class="gameBox" id="btn10">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn11">
+        <h1 class="boxText"></h1>
+
+      </div>
+
+      <div class="gameBox" id="btn12">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn13">
+        <h1 class="boxText"></h1>
+      </div>
+
+    </div>
+
+
+    <div class="row" id="row">
+
+      <div class="gameBox" id="btn20">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn21">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn22">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn23">
+        <h1 class="boxText"></h1>
+      </div>
+
+    </div>
+
+
+    <div class="row" id="row">
+
+      <div class="gameBox" id="btn30">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn31">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn32">
+        <h1 class="boxText"></h1>
+      </div>
+
+      <div class="gameBox" id="btn33">
+        <h1 class="boxText"></h1>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
